@@ -5,7 +5,7 @@
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
 		"prepublishOnly": "echo 'Did you mean to publish `./package/`, instead of `./`?' && exit 1",
-        "package": "svelte-package",
+		"package": "svelte-package",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
@@ -28,5 +28,14 @@
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"author": "Amr <contact@a3k.me> (https://www.a3k.me/)",
+	"keywords": [
+		"svelte"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/amr3k/svelte-exec"
+	},
+	"homepage": "https://svelte-exec.a3k.me"
 }
