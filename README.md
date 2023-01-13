@@ -1,14 +1,12 @@
 # Svelte-Exec
 
+A tiny svelte component to emit a `load` event when the component is loaded.
+
 <div align=center>
   <img src="./static/favicon.png">
 </div>
 
-A tiny svelte component to emit a `load` event when the component is loaded.
-
 ## Installation
-
-- npm
 
 ```bash
 npm install svelte-exec
