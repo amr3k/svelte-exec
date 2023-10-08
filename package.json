@@ -50,5 +50,7 @@
 		"dist",
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*"
-	]
+	],
+	"svelte": "./dist/index.js",
+	"types": "./dist/index.d.ts"
 }
